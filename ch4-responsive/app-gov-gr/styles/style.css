@@ -39,6 +39,7 @@ nav {
 main {
     flex: 80%;
     height: calc(100vh - 105px);
+    overflow: auto;
 }
 
 aside {
@@ -109,6 +110,10 @@ footer {
 
 .flex-grow-1 {
     flex-grow: 1;
+}
+
+.justify-end {
+    justify-content: end;
 }
 
 /* Margin - Padding */
